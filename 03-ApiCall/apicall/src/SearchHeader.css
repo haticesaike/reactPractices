@@ -1,0 +1,23 @@
+.searchDiv {
+  padding: 10px 10px 25px 10px;
+  background-color: rgb(250, 245, 245);
+  border: solid 1px rgb(242, 227, 227);
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+.searchDiv form {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.searchDiv label {
+  font-weight: 600;
+  font-size: 18px;
+}
+.input {
+  background-color: rgb(244, 239, 243);
+  border: solid 1px rgb(207, 190, 204);
+  border-radius: 8px;
+  height: 25px;
+}
