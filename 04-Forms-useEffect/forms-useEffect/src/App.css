@@ -1,0 +1,134 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.taskCreate {
+  width: 600px;
+  height: 350px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #d2e9e9;
+  gap: 10px;
+}
+.taskUpdate {
+  width: 100%;
+}
+
+.taskCreate label {
+  border-radius: 10px;
+}
+
+.taskForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+  padding: 20px;
+}
+.task-delete {
+  font-size: 18px;
+  background-color: #668ba4;
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+.task-edit {
+  font-size: 18px;
+  background-color: #668ba4;
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.task-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  align-items: center;
+  padding: 20px;
+  border: solid 3px rgb(202, 230, 239);
+  border-radius: 10px;
+  background-color: #d2e9e9;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8f6f4;
+}
+
+.textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: #f8f6f4;
+}
+
+.buttonCreate {
+  font-size: 18px;
+  background-color: #668ba4;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  width: 98%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.buttonCreate:hover {
+  transform: scaleY(1.09);
+}
+.task-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.cards-buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  margin-top: 10px;
+}
+.cardButton {
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.cardButton:hover {
+  transform: scaleY(1.1) scaleX(1.03);
+}
+.border {
+  width: 80%;
+  height: 100px;
+  overflow-y: auto;
+  border: 1px solid #f8f6f4;
+  background-color: #f8f6f4;
+  border-radius: 5px;
+  padding: 10px;
+}
+.border-title {
+  height: 60px;
+}
