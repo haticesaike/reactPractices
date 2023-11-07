@@ -1,0 +1,85 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(247, 250, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-family: "Syne", sans-serif;
+}
+.headText {
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: rgb(62, 60, 60);
+}
+
+.randomCardButton {
+  width: 50%;
+  border-radius: 15px;
+  font-family: "Syne", sans-serif;
+  width: 70%;
+  height: 40px;
+  background-color: #56704c;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.randomCardButton:hover {
+  background-color: #34482b;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.buttonLeft,
+.buttonRight {
+  background-color: rgb(247, 250, 249);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #56704c;
+}
+.buttonLeft:hover,
+.buttonRight:hover {
+  color: #2c3b26;
+}
+.card {
+  gap: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 500px;
+  border: 2px solid #56704c;
+  border-radius: 10px;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1b2417;
+  padding: 10px;
+  font-family: "Syne", sans-serif;
+}
+.price,
+.description {
+  font-size: 30px;
+  font-weight: bold;
+  color: #214d0f;
+  padding: 10px;
+}
+.description {
+  font-size: 20px;
+  color: #1b2417;
+  padding: 10px;
+  font-family: "Syne", sans-serif;
+}

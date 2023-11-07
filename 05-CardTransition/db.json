@@ -1,0 +1,27 @@
+{
+    "products":[
+
+   
+    {
+        "title": "Hydrating Cleansing Gel",
+        "price": "18.99",
+        "description": "Hydrating Cleansing Gel is clinically proven to be suitable for sensitive skin and is enriched with Hyaluronic Acid to support the skin's moisture balance.This sensitive skin cleanser is formulated with APG Cleansing Complex to lift and remove impurities, including makeup, from the skin, providing thorough but gentle cleansing"
+    },
+    {
+
+        "title": "Greasy Sunscreen Lotion",
+        "price": "38.99",
+        "description": "This lightweight and sheer sunscreen is fast-absorbing with Dry-Touch technology for a non-greasy, matte finish that leaves skin feeling clean. The face and body sunscreen is formulated with Helioplex for superior sunburn protection for your skin"
+    },
+    {
+        "title": "Anti-Aging Retinol Moisturizer",
+        "price": "28.99",
+        "description": "This anti-wrinkle moisturizer is clinically proven to visibly reduce the appearance of fine lines, wrinkles, and other signs of aging while boosting skin radiance and elasticity. The formula contains Retinol, a pure form of Vitamin A, well known among dermatologists for its ability to help diminish the look of lines and wrinkles"
+    },
+    {
+        "title":"Bond Maintenance Conditioner",
+        "price": "60.00",
+        "description": "This Bond Maintenance moisturizing and reparative conditioner is formulated with Olaplex Bond Building chemistry. It restores internal strength and moisture levels to add incredible shine and manageability. It is recommended for all hair types. The product is sulfate free,paraben free and Phthalate-Free"
+    }
+]
+}
