@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  background-color: rgb(201, 216, 211);
+  padding: 15px 30px;
+  gap: 40px;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(160, 153, 153);
+  font-size: 20px;
+}
+
+.navbar a.active {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.subNav {
+  display: flex;
+
+  padding: 15px 30px;
+  gap: 40px;
+}
+.subNav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
