@@ -36,7 +36,7 @@ input:focus {
   border-color: lightblue;
 }
 
-button {
+.button {
   width: 100%;
   padding: 8px 8px;
   margin: 16px 0px;
@@ -47,4 +47,25 @@ button {
   cursor: pointer;
   border-radius: 20px;
   border: none;
+}
+.clickedButton {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 16px 0px;
+  background-color: rgb(69, 115, 69);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  opacity: 0.5;
+}
+.input-error {
+  border-color: rgb(225, 102, 102);
+}
+.error {
+  color: rgb(108, 65, 65);
+  font-size: 12px;
+  text-align: left;
 }
