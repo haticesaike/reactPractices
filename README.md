@@ -18,3 +18,6 @@
 ## 05- Card Transition 
 
 ![App Screenshoot](https://github.com/haticesaike/reactPractices/blob/master/img/cardtransition.png?raw=true)
+## 07- Formik
+
+![App Screenshot](https://github.com/haticesaike/reactPractices/blob/master/img/formik.gif?raw=true)
