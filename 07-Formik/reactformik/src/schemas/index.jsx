@@ -21,3 +21,14 @@ export const basicSchema = Yup.object().shape({
     .oneOf([Yup.ref("password")], "Passwords do not match")
     .required("Please fill in this area"),
 });
+
+export const advancedSchema = Yup.object().shape({
+  username: Yup.string("Please enter the information correctly")
+    .min(3, "at least 3 characters")
+    .required("Please fill in this area"),
+  city: Yup.string()
+    .oneOf(["Istanbul", "Izmir", "Ankara", "Bursa"], "Please select city")
+    .required("Please select city"),
+
+  isAccepted: Yup.boolean().oneOf([true], "You must accept the terms of use"),
+});
